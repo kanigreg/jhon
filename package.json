@@ -1,0 +1,32 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "main": "gulpfile.js",
+  "author": "kangry",
+  "type": "module",
+  "scripts": {
+    "dev": "npx gulp",
+    "build": "npx gulp build --build"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "sass": "^1.54.0",
+    "webpack": "^5.74.0",
+    "webpack-stream": "^7.0.0"
+  }
+}
